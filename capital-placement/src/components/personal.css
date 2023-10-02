@@ -1,0 +1,11 @@
+.phone-inside{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.options{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}

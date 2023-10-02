@@ -1,0 +1,40 @@
+.personal {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
+.horizontal-row {
+    display: flex;
+    align-items: baseline;
+  }
+
+.hideable{
+    width: 50%;
+}
+
+.cyan-ribbon {
+    background-color: #d8f6f9;
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    padding-left: 1rem;
+    box-sizing: border-box;
+    height: 3.875vw;
+    font-weight: bold;
+    border-radius: 1rem 1rem 0 0;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    }
